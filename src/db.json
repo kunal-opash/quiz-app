@@ -1,0 +1,50 @@
+{
+  "questions": [
+    {
+      "category": "ReactJS",
+      "question": "What is ReactJS?",
+      "choices": [
+        "User-interface framework",
+        "Server-interface framework",
+        "both a and b",
+        "None of the above"
+      ],
+      "correctAnswer": "User-interface framework"
+    },
+    {
+      "category": "ReactJS",
+      "question": "In which language is React.js written 1?",
+      "choices": ["Python", "JavaScript", "JAVA", "PHP"],
+      "correctAnswer": "JavaScript"
+    },
+    {
+      "category": "JS",
+      "question": "Which function is used to an object into a JSON string in Javascript?",
+      "choices": ["stringify()", "parse()", "convert()", "None of the above"],
+      "correctAnswer": "stringify()"
+    },
+    {
+      "category": "JS",
+      "question": "Which of the following keywords is used to define a variable in Javascript?",
+      "choices": ["var", "let", "var and let", "None of the above"],
+      "correctAnswer": "var and let"
+    },
+    {
+      "category": "JS",
+      "question": "Which of the following methods can be used to display data in some form using Javascript?",
+      "choices": [
+        "document.write()",
+        "console.log()",
+        "window.alert",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above"
+    },
+    {
+      "category": "JS",
+      "question": "How can a datatype be declared to be a constant type?",
+      "choices": ["const", "var", "let", "constant"],
+      "correctAnswer": "const"
+    }
+  ]
+}

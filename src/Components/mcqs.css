@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+}
+
+body {
+    background-color: #d5d5d5;
+    font-family: 'arial';
+    /* color: #fff; */
+}
+
+.custom-select {
+  width: 180px;
+  height: 30px;
+  border: 1px solid #999;
+  font-size: 18px;
+  color: #1c87c9;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 4px 4px #ccc;
+  cursor: pointer;
+}
+
+
+.container {
+  max-width: 600px;
+  min-width: 250px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 60px;
+  box-shadow: 20px 20px 10px grey;
+  /* border: 1px solid black; */
+}
+
+.header {
+  margin-top: 25px;
+}
+
+.container h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  /* border: 1px solid black; */
+  /* border-radius: 10px; */
+  padding: 20px;
+}
+
+.question {
+  margin-top: 55px;
+  color: #ffffff;
+  border-radius: 10px;
+  background: #005aa7;
+  background: (to right, #fffde4, #005aa7);
+  background: linear-gradient(to left, #fffde4, #005aa7);
+}
+
+.select-answer {
+  border: 1px solid black;
+  width: 12px;
+  padding-right: 12px;
+  
+}
+
+.form-value{
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.check {
+  margin-left: 12px;
+}
+
+#check-input {
+  padding: 12px;
+}
+
+.value {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.form-item {
+  color: #005aa7;
+  margin-top: 12px;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.btn {
+  margin-left: 25px;
+  padding-bottom: 25px;
+  justify-content: space-between;
+}
+
+/* .btn-prev {
+  color: #ffffff;
+  font-size: medium;
+  padding: 12px 12px;
+  cursor: pointer;
+}
+
+.btn-prev:hover {
+  color: black;
+ 
+} */
+
+.btn-next {
+  color: black;
+  border: none;
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 14px 14px;
+  width: 80px;
+  cursor: pointer;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.6s ease-out;
+}
+
+.btn-next:hover {
+  color: #ffffff;
+  border: none;
+  background: linear-gradient(to left, #fffde4, #005aa7 100%);
+  background-position: left bottom;
+}
+
+.result h1 {
+  margin-bottom: 25px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.result p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.result p {
+  font-size: 22px;
+}
+
+.result-value {
+  color: #005aa7;
+}
+
+.result-item1 {
+  color: green;
+}
+
+.result-item2 {
+  color: red;
+}
+
+
